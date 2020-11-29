@@ -1,0 +1,57 @@
+{
+  "name": "svelte-snowpack-template",
+  "description": "A preconfigured template for Snowpack with Svelte and TypeScript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/ParkYoungWoong/svelte-snowpack-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParkYoungWoong/svelte-snowpack-template.git"
+  },
+  "author": {
+    "name": "Park Young-Woong(Heropy)",
+    "email": "thesecon@gmail.com",
+    "url": "https://heropy.blog/2019/09/29/svelte/"
+  },
+  "keywords": [
+    "svelte",
+    "snowpack",
+    "typescript",
+    "scss"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "wtr \"src/**/*.(test|spec).(t|j)s\"",
+    "test:watch": "wtr \"src/**/*.(test|spec).(t|j)s\" --watch"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.9.2",
+    "@snowpack/plugin-babel": "^2.1.4",
+    "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-optimize": "^0.2.9",
+    "@snowpack/plugin-sass": "^1.1.1",
+    "@snowpack/plugin-svelte": "^3.3.0",
+    "@snowpack/plugin-typescript": "^1.1.0",
+    "@snowpack/web-test-runner-plugin": "^0.1.4",
+    "@testing-library/svelte": "^3.0.0",
+    "@types/chai": "^4.2.13",
+    "@types/snowpack-env": "^2.3.2",
+    "@web/test-runner": "^0.9.7",
+    "autoprefixer": "^10.0.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "chai": "^4.2.0",
+    "postcss": "^8.1.10",
+    "snowpack": "^2.17.1",
+    "svelte": "^3.29.7",
+    "svelte-preprocess": "^4.0.8",
+    "typescript": "^4.0.0"
+  }
+}
