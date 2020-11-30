@@ -1,9 +1,14 @@
 # Svelte & Snowpack template
 
 ```bash
+## Install template
 $ npx degit ParkYoungWoong/svelte-snowpack-template DIR_NAME
+## Change directory
 $ cd DIR_NAME
-$ npm install
+## Intall Modules 
+$ npm i
+## Start dev server
+$ npm run dev
 ```
 
 - Svelte
@@ -14,3 +19,4 @@ $ npm install
 - Web test runner
 - Chai
 - Reset.css
+ㅜ
