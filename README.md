@@ -5,7 +5,7 @@
 $ npx degit ParkYoungWoong/svelte-snowpack-template DIR_NAME
 ## Change directory
 $ cd DIR_NAME
-## Intall Modules 
+## Install dependencies
 $ npm i
 ## Start dev server
 $ npm run dev
