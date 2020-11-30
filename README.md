@@ -3,10 +3,13 @@
 ```bash
 ## Install template
 $ npx degit ParkYoungWoong/svelte-snowpack-template DIR_NAME
+
 ## Change directory
 $ cd DIR_NAME
+
 ## Install dependencies
 $ npm i
+
 ## Start dev server
 $ npm run dev
 ```
@@ -19,4 +22,3 @@ $ npm run dev
 - Web test runner
 - Chai
 - Reset.css
-ㅜ
